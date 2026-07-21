@@ -10,6 +10,7 @@ from django.views.decorators.http import require_POST, require_GET
 from django.db.models import Count
 from django.core.paginator import Paginator
 from .models import ProjectSubmission
+from django.contrib.auth.decorators import login_required
 
 # Import AsyncGroq to safely handle non-blocking LLM calls
 from groq import AsyncGroq
