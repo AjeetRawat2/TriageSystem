@@ -148,3 +148,4 @@ STORAGES = {
         "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
     },
 }
+LOGIN_URL = "login"   # if your login URL name is "login"
