@@ -7,6 +7,6 @@ psycopg2-binary==2.9.12
 
 pandas==2.3.3
 joblib==1.5.3
-asgiref==3.8.1
+asgiref>=3.9.1
 requests==2.31.0
 GitPython==3.1.46
