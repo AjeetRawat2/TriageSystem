@@ -155,7 +155,7 @@ async def validate_repo(request, project_id):
 # ==========================================
 # JUDGE PORTAL VIEWS
 # ==========================================
-
+@login_required
 def judge_dashboard(request):
     """Renders the judge portal showing only approved projects."""
     projects = ProjectSubmission.objects.filter(is_reviewed=True).order_by('-id')
