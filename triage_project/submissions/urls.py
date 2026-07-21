@@ -11,6 +11,7 @@ urlpatterns = [
     
     # --- JUDGE PORTAL ROUTES ---
     path('judge/', views.judge_dashboard, name='judge_dashboard'),
+    path("login/", views.login_view, name="login")
     path('rate/<int:project_id>/', views.submit_score, name='submit_score'),
     path('judge_summary/<int:project_id>/', views.judge_evaluate_project, name='judge_summary'),
     path('export-winners/', views.export_winners_csv, name='export_winners_csv'),
