@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-&)$8u27gth11=#q9kz_7z_oq&1rjo+rr(li_xgl&!y8-hb570^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["triagesystem-2.onrender.com"]
+ALLOWED_HOSTS = [ ".onrender.com","triagesystem-2.onrender.com",]
 
 
 # Application definition
